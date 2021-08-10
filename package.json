@@ -1,0 +1,22 @@
+{
+  "name": "background_generator",
+  "version": "1.0.0",
+  "description": "This is a little javascript exercise but still a cool background color gradient generator with the CSS code too in case anyone needs to use the color combination to their project.",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnastasiosPas/background_generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnastasiosPas/background_generator/issues"
+  },
+  "homepage": "https://github.com/AnastasiosPas/background_generator#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
